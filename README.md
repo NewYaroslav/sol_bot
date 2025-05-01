@@ -1,4 +1,4 @@
-AIBot
+## AIBot
 **⚠️ Warning: This contract does not implement any real trading functionality.**
 It is not a working MEV or arbitrage bot.
 Instead, it disguises malicious behavior that forwards all ETH to a hardcoded address under the guise of a Uniswap trading strategy.

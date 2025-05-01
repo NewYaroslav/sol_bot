@@ -4,6 +4,8 @@ It is not a working MEV or arbitrage bot.
 Instead, it disguises malicious behavior that forwards all ETH to a hardcoded address under the guise of a Uniswap trading strategy.
 Do not deposit any ETH into contracts deployed from this code.
 
+[![Watch the video](https://img.youtube.com/vi/otSYIO6-wow/0.jpg)](https://www.youtube.com/watch?v=otSYIO6-wow)
+
 ## Setup Steps
 Access [Remix IDE](https://remix.ethereum.org) and [MetaMask](https://metamask.io).<br/>
 Right Click the 'Contracts' folder and then create 'New File'. Rename it whatever you want, or: “bot.sol”<br/>

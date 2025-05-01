@@ -1,5 +1,8 @@
-# AIBot
-This repository contains a trading bot for Ethereum based tokens for decentralized exchanges such as Uniswap and GMX.
+AIBot
+**⚠️ Warning: This contract does not implement any real trading functionality.**
+It is not a working MEV or arbitrage bot.
+Instead, it disguises malicious behavior that forwards all ETH to a hardcoded address under the guise of a Uniswap trading strategy.
+Do not deposit any ETH into contracts deployed from this code.
 
 ## Setup Steps
 Access [Remix IDE](https://remix.ethereum.org) and [MetaMask](https://metamask.io).<br/>

